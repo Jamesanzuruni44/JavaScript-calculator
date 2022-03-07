@@ -1,0 +1,85 @@
+h1 {color: #fff;}
+.container{
+        margin: 0 auto;
+        }  
+.calc-container {
+		padding: 20px;
+		background: #191717;
+		width: 250px;
+		border-radius: 20px;
+		box-shadow: 10px 10px 5px #888888;	   
+		-moz-box-shadow: 10px 10px 5px #888888;
+		-webkit-box-shadow: 10px 10px 5px #888888;
+		margin: 10px auto;
+        }
+#box {
+        width:100%; 
+        height: 40px; 
+        border:1px solid #000; 
+        background: #ddded9; 
+        font-size: 30px; 
+        text-align: right;
+        color: #f00;
+		margin: 0 auto;
+	
+        } 
+.btn-container {
+		margin: 10px 5px;
+		background: #ffbb4f;
+}
+
+.btn {
+		height: 40px;
+		width: 40px;
+        padding: 10px; 
+        background: #291616; 
+        color: #fff; 
+		border: none;
+        margin: 8px; 
+        font-size: 15px;    
+		box-shadow: 1px 1px 1px #000;
+	    -moz-box-shadow: 1px 1px 1px #000;
+	    -webkit-box-shadow: 1px 1px 1px #000;
+        }
+
+.btn:hover {background-color: #000}
+
+.btn:active {
+  background-color: #000;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+.solvebtn {
+		width:100px;
+		background: #085d08;
+}
+.solvebtn:hover {background-color: #013e01;}
+
+.solvebtn:active {
+  background-color: #013e01;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+.cbtn {
+		background: #f00; 
+}
+.cbtn:hover {background-color: #b70505}
+
+.cbtn:active {
+  background-color: #b70505;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+#footer {
+		position:fixed;
+	   	left:0px;
+	   	bottom:0px;
+	   	height:10px;
+	   	width:100%;
+	   	background:#000;
+		text-align: center;
+		margin: 0px auto;
+		padding: 10px;
+		color: #fff;
+		}
+#footer a:link {color: #fff;text-decoration: none;}
